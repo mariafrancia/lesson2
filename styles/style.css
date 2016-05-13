@@ -1,0 +1,130 @@
+
+body {
+	background-color: grey;
+	margin: 15px;
+	padding:1em;
+	font-family: Arial, Helvetica, sans-serif;
+    border: 1px; 
+    
+}
+
+/*nav bar styling*/
+nav {
+    height: 100px;
+    background-color: #2c3e50;
+}
+
+nav ul {
+    list-style-type: none; /*removes bullets*/
+    margin: 8px;
+    padding: 14px;
+}
+
+ nav li {
+    float: right;  /*this will move the li to the right*/
+    display: inline;   /*By default, <li> elements are block elements. Here, we remove the line breaks before and after each list item, to display them on one line*/
+}
+
+ 
+nav a {
+    display: block;
+    /*padding: 8px;*/
+    background-color: orange;
+    /*float: left; - use float to get block elements to slide next to each other display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify padding (and height, width, margins, etc. if you want)*/
+    color: blue;
+    text-align: center;
+    padding: inherit;
+    text-decoration: none;
+}
+
+nav a {
+    /* display: block; */
+    padding: 14px 16px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    /* padding: inherit; */
+    /* text-decoration: none; */
+
+    border-right: 4px solid #bbb;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*general styles*/
+
+h1 {
+	background-color: yellow;
+	border:25px solid blue;
+	padding: 14px 16px;
+ }
+
+h4 { 	 		          	
+	background-color: red;	
+	padding: inherit;
+ 	border:25px solid blue; 
+ }
+ 
+img {
+    width: 400px;
+    height: 300px;
+}
+}
+
+/*section 1 styling*/
+
+.section1 div {
+    clear: both;
+    width: 73%;
+    display: inline-block;
+}
+
+#line1 {
+    border: 5px solid red;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; 
+
+ } 
+
+.section1 p {
+    width: 40%;
+}
+
+.section1 img {
+    float: left;
+    padding: 10px;
+}
+
+.section1 p {
+    float: center;
+    width: 88%;
+    margin:28px
+}
+
+
+/*section 2 styling*/
+
+.section2 img {
+    float: right;
+}
+
+.section2 p { 
+    text-align:justify; 
+	float: right;
+    width: 80%
+	margin: 10px   
+}
+
+
+	
+
+
+
+
+
